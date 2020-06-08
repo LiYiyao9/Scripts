@@ -2,19 +2,7 @@ import time
 from time import sleep
 import os.path
 from random import randint
-from bs4 import BeautifulSoup
-from mtranslate import translate
 from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
-from selenium.common.exceptions import NoSuchElementException 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait  # available since 2.4.0
-# available since 2.26.0
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support.select import Select
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
 # example of input keys
